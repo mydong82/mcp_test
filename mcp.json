@@ -1,0 +1,63 @@
+{
+  "mcpServers": {
+    "server-sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/server-sequential-thinking",
+        "--key",
+        "12eb9982-a576-4d90-9a5f-de12e42daa8c"
+      ]
+    },
+    "brave-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/brave-search",
+        "--key",
+        "12eb9982-a576-4d90-9a5f-de12e42daa8c",
+        "--profile",
+        "mute-crayfish-QqxzVd"
+      ]
+    },
+    "playwright-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@microsoft/playwright-mcp",
+        "--key",
+        "12eb9982-a576-4d90-9a5f-de12e42daa8c"
+      ]
+    },
+    "desktop-commander": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@wonderwhy-er/desktop-commander",
+        "--key",
+        "12eb9982-a576-4d90-9a5f-de12e42daa8c"
+      ]
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/github",
+        "--key",
+        "12eb9982-a576-4d90-9a5f-de12e42daa8c",
+        "--profile",
+        "mute-crayfish-QqxzVd"
+      ]
+    }
+  }
+}
